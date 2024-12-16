@@ -3,8 +3,8 @@ import { Outlet } from 'react-router-dom'
 
 const MainContent1 = () => {
   return (
-    <div>
-      <h1>Lorem ipsum dolor sit amet.</h1>
+    <div className='w-screen min-h-screen overflow-x-hidden'>
+      <h1 className='text-xl font-semibold'>Components 1</h1>
       <Outlet/>
     </div>
   )

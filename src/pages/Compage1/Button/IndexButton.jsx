@@ -1,11 +1,12 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
+import React from 'react';
+import Buttons from '../../../components/Compage1/button/Buttons';
+
 
 const IndexButton = () => {
   return (
-    <div>
-      <h1>Buttons page main content</h1>
-      <Outlet/>
+    <div className='w-full h-full flex flex-col gap-2'>
+      <h1 className='text-lg font-medium'>Buttons</h1>
+      <Buttons/>
     </div>
   )
 }
